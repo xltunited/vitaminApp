@@ -10,7 +10,7 @@ import Menu from './Components/Menu/Menu';
 class App extends Component {
   state = {
     vitamins : [],
-    total : 0,
+    stateTotal : 0,
     userInputs:[],
     currentInput:""
   }
@@ -39,7 +39,7 @@ class App extends Component {
     }
 
   var newArray = this.state.userInputs;
-  var total = 0;
+  var varTotal = 0;
 
   console.log(this.state.currentInput);
 
@@ -50,12 +50,12 @@ class App extends Component {
   });
 
   for (let i = 0; i < newArray.length; i++) {
-    total += parseInt(newArray[i]);      
-    console.log(total);
+    varTotal += parseInt(newArray[i]);      
+    console.log(varTotal);
   }
 
   this.setState({
-    total : total
+    stateTotal:varTotal
   }) 
 }
 
@@ -67,7 +67,7 @@ class App extends Component {
       <Vitamins 
         submitBtn = {this.submitBtn}
         getInputValue ={this.getInputValue}
-        total = {this.state.total}
+        total = {this.state.stateTotal}
         currentInput = {this.state.currentInput}
       />
       </div>
