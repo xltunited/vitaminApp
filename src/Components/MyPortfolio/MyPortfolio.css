@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    color: darkcyan;
+}
+
+.vitaminDiv {
+    text-align: center;
+}
+
+.vitaminBtn{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+.vitaminDiv {
+    padding: 20px;
+}

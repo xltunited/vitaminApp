@@ -1,0 +1,40 @@
+.nav-link{
+    color: black;
+    padding: 10px 30px;
+    float: right;
+    margin: 10px 30px;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.navbar-brand {
+    float: left;
+    color: white !important;
+    font-weight: bold;
+    margin: auto 30px;
+    font-size: 30px !important;
+}
+
+.nav-link{
+    color: black !important
+}
+
+::placeholder{
+    color: purple !important
+}
+
+.menuDiv {
+width:100%; background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9) !important;
+    margin-top: 20px;
+    border-top: 5px solid orange; 
+    border-bottom: 0 solid lightcyan;
+    box-shadow: 
+      0  -5px 0 salmon, 0  5px 0 salmon,  
+      0 -10px 0 yellow, 0 10px 0 yellow,
+      0 -15px 0 lightseagreen, 0 15px 0 lightseagreen,
+      0 -20px 0 cadetblue, 0 20px 0 cadetblue;
+    padding:10px; 
+}
+
