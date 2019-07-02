@@ -64,7 +64,7 @@ class App extends Component {
     vitaminCTotal : varTotal
   }) 
 }
-//===============================================================
+
 // VITAMIN D =================================================
   vitaminDBtn = () => { 
     if (this.state.vitaminDInput.length === 0) {
