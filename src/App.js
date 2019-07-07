@@ -4,11 +4,12 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // MY FILES
-import Vitamins from './Components/MyPortfolio/MyPortfolio';
+import VitaminCounter from './Components/VitaminCounter/VitaminCounter';
 import Menu from './Components/Menu/Menu';
 
 class App extends Component {
   state = {
+
     vitaminCTotal : 0,
     vitaminDTotal : 0,
 
@@ -101,7 +102,7 @@ render() {
     <div>
     <Menu />
     <br></br>
-    <Vitamins 
+    <VitaminCounter 
       submitBtn = {this.submitBtn}
       submitBtnVitaminD = {this.vitaminDBtn}
 
@@ -110,6 +111,7 @@ render() {
 
       currentInput = {this.state.currentInput}
       vitaminDInput = {this.state.vitaminDInput}
+
 
       vitaminC = {this.state.vitaminCTotal}
       vitaminD = {this.state.vitaminDTotal}

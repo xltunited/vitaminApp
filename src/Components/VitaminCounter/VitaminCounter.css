@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+  color: darkcyan;
+}
+
+.vitaminDiv {
+  text-align: center;
+}
+
+.vitaminBtn{
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+}
+
+.vitaminDiv {
+  padding: 20px;
+}
+
+label {
+  padding: 0.5em;
+  display: block;
+  margin: 0.5em 0;
+}
+
+.vitamin-container{
+  display: flex;
+  flex-direction: column;
+
+}
